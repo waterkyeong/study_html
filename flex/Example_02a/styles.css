@@ -1,0 +1,33 @@
+.wrapper{
+    padding: 3rem;
+    color: black;
+    background-color: rgb(233, 224, 245);
+    text-align: center;
+
+}
+
+.menu{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+
+}
+
+.menu a{
+    background-color: #eff6ff;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.menu a.active{
+    background-color: #3b82f6;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+} /* 레이아웃은 큼직하게 만들어서 문제없으면 잘라서 위에 붙이기  */

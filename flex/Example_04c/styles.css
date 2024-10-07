@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9fafb;
+    color: #333;
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+}
+
+.service{
+    background-color: white;
+    margin: 0 1rem;
+    padding: 1rem;
+    max-width: 250px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 50px -10px rgba(23, 23, 23, 0.2);
+    text-align: center;
+}
+
+.service h2{
+    margin-top: 1.6rem;
+}
+
+.service p {
+    margin-top: 0; 
+    /* 이거 나중에 보고 채워야함 */
+}

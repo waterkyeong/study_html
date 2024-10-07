@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey-light: #f1f5f9;
+    --grey-dark: #0f173a;
+}
+
+body {
+    line-height: 1.5;
+    background-color: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+.card-blog {
+    width: 90vw;
+    /* width: 750px; */
+}
+
+.card-blog-img {
+    width: 100%;
+}

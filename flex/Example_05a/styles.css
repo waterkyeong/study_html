@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbf7ff;
+}
+
+.wrapper{
+    background-color: white;
+    box-shadow: 10px 10px 50px -10px rgba(23, 23, 23, 0.2);
+    width: 330px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    height: 100%;
+    flex-direction: column; /*축방향 변경, 이럴땐 공간도 반드시 같이 확보해야한다.*/
+    justify-content: center;
+    display: flex;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+
+.login-link{
+    background-color: #018ddd;
+    color: white;
+
+}
+
+.signup-link{
+    color: #018ddd;
+    border-style: solid;
+}

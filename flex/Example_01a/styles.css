@@ -1,0 +1,24 @@
+.quote{
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #eff6ff;
+    border-radius: 1rem;
+}
+
+.quote p {
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 0 0.5rem;
+}
+
+.quote span{
+    font-size: 0.9rem;
+    color: gray;
+
+}
+
+.container{
+    display: flex;
+}

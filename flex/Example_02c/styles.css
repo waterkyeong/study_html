@@ -1,0 +1,26 @@
+.container{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-profile{
+    text-align: center;
+}
+
+.team-img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.team-name{
+    margin: 1rem 0 1rem;
+}
+
+.team-role{
+    font-size: 0.8rem;
+    color: gray;
+}
